@@ -1,0 +1,13 @@
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2013-02-15 15:12:35
+project --topLevelPackage com.example --projectName PizzaDelivery --java 6 --packaging WAR
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2013-02-15 15:12:36
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2013-02-15 15:12:46
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2013-02-15 15:12:54
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2013-02-15 15:13:41
+jpa setup --provider HIBERNATE --database MYSQL 
+entity jpa --class ~.domain.Pizza --testAutomatically 
+field string --fieldName diameter
+web mvc setup
+web mvc all --package ~.web
+json all 
+web mvc json all 

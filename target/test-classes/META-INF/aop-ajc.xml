@@ -1,0 +1,9 @@
+<aspectj>
+<aspects>
+<aspect name="com.example.domain.PizzaDataOnDemand_Roo_Configurable"/>
+<aspect name="com.example.domain.PizzaIntegrationTest_Roo_Configurable"/>
+<aspect name="com.example.domain.PizzaIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.example.domain.PizzaDataOnDemand_Roo_DataOnDemand"/>
+</aspects>
+</aspectj>
+

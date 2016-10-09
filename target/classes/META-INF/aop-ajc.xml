@@ -1,0 +1,14 @@
+<aspectj>
+<aspects>
+<aspect name="com.example.domain.Pizza_Roo_ToString"/>
+<aspect name="com.example.domain.Pizza_Roo_Jpa_Entity"/>
+<aspect name="com.example.domain.Pizza_Roo_Json"/>
+<aspect name="com.example.web.PizzaController_Roo_Controller"/>
+<aspect name="com.example.web.PizzaController_Roo_Controller_Json"/>
+<aspect name="com.example.domain.Pizza_Roo_JavaBean"/>
+<aspect name="com.example.domain.Pizza_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.example.domain.Pizza_Roo_Configurable"/>
+<aspect name="com.example.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+</aspects>
+</aspectj>
+
